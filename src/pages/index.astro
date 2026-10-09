@@ -1,0 +1,143 @@
+---
+/**
+ * Home page - hero, three business-type cards, call-to-action.
+ * Section 8 step 18 (first bullet) of the ADMS Website Build Guide.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+
+const title = 'Adapdev';
+const description =
+  'Bespoke software for Australian sole traders, small businesses and law firms. On your premises, built to last.';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="hero">
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Bespoke software for Australian small business</p>
+      <h1 class="hero__title">Software that runs on your terms.</h1>
+      <p class="hero__lede">
+        Adapdev builds practical, on-premises software for Australian sole traders,
+        small businesses and law firms. Fast, private, and built to outlive the
+        subscription of the week.
+      </p>
+      <div class="hero__actions">
+        <a href="/adms" class="btn">Explore ADMS</a>
+        <a href="/contact" class="btn btn--ghost">Talk to us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Built for three kinds of operator</h2>
+      <p class="muted">
+        Pick the shape that fits. The product adapts; your workflow doesn't have to.
+      </p>
+      <div class="grid grid--3">
+        <BusinessCard
+          title="Sole traders"
+          blurb="Tradies and single-person operators. Keep client paperwork organised on your own laptop, with no monthly fee and no third party in the loop."
+          href="/adms#sole-traders"
+          icon="tools"
+        />
+        <BusinessCard
+          title="Small businesses"
+          blurb="Multi-person tradies and services teams. Shared document access on your office network, with per-user permissions and audit logging."
+          href="/adms#small-business"
+          icon="briefcase"
+        />
+        <BusinessCard
+          title="Law firms"
+          blurb="Small-to-medium legal practices. Matter-centric document management, Office integration, and the audit controls your clients expect."
+          href="/adms#law-firms"
+          icon="scales"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tinted">
+    <div class="container">
+      <h2>Why on-premises?</h2>
+      <p>
+        Your clients' documents belong on your hardware, not someone else's. Adapdev
+        software installs on a laptop, a desktop or a small office server - no SaaS
+        subscription, no uploading matter files to another company's cloud, no sudden
+        price change out of your control.
+      </p>
+      <p>
+        Everything is designed to meet the obligations of the Australian Privacy Act,
+        the Notifiable Data Breaches scheme, and the practical realities of running
+        a lean business.
+      </p>
+      <p>
+        <a href="/about">Read more about Adapdev &rarr;</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: var(--space-8) var(--space-7);
+    background:
+      radial-gradient(ellipse at top right, var(--brand-tint) 0%, transparent 60%),
+      var(--brand-white);
+  }
+
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+  }
+
+  .hero__eyebrow {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: var(--brand-royal);
+    font-size: var(--fs-sm);
+  }
+
+  .hero__title {
+    margin: 0;
+    font-size: clamp(var(--fs-3xl), 5vw, var(--fs-4xl));
+    max-width: 20ch;
+  }
+
+  .hero__lede {
+    font-size: var(--fs-lg);
+    color: var(--brand-text);
+    max-width: 48ch;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+  }
+
+  .section {
+    padding-block: var(--space-7);
+  }
+
+  .section--tinted {
+    background: var(--brand-tint-2);
+    border-top: 1px solid var(--brand-rule);
+    border-bottom: 1px solid var(--brand-rule);
+  }
+
+  .grid {
+    display: grid;
+    gap: var(--space-5);
+    margin-top: var(--space-5);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+</style>
