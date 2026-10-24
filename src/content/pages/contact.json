@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Contact — Adapdev",
+    "description": "Tell us about your filing. We answer within one Australian business day, usually sooner."
+  },
+  "eyebrow": "Contact",
+  "title": "Tell us about your filing",
+  "blurb": "We reply within one Australian business day, Monday to Friday Eastern time. If you'd rather see ADMS running before you decide, ask for a demo installer and a 30-minute walkthrough.",
+  "form": {
+    "fields": [
+      { "label": "Your name",       "name": "Name",         "type": "text",     "placeholder": "Jane Okafor",         "required": true,  "autocomplete": "name" },
+      { "label": "Email",           "name": "Email",        "type": "email",    "placeholder": "jane@example.com.au", "required": true,  "autocomplete": "email" },
+      { "label": "Business type",   "name": "Business",     "type": "text",     "placeholder": "Sole trader / small business / law firm", "required": false, "autocomplete": "organization" },
+      { "label": "What are you trying to do?", "name": "Message", "type": "textarea", "placeholder": "", "required": false }
+    ],
+    "submit": {
+      "idle":    "Send it",
+      "sending": "Sending…",
+      "success": "Thanks — we'll reply within a business day",
+      "error":   "That did not send — please try again"
+    },
+    "note": "We use this to answer you. No marketing list, no sequence, no third-party trackers."
+  },
+  "email": { "label": "Email", "value": "hello@adapdev.com.au", "href": "mailto:hello@adapdev.com.au" },
+  "phone": { "label": "Based in", "value": "Queensland, Australia", "href": "https://en.wikipedia.org/wiki/Queensland" },
+  "next": {
+    "title": "What happens next",
+    "steps": [
+      "We read your note and reply ourselves — no form robot, no sequence.",
+      "If it looks like a fit, we send a signed installer and a 30-minute walkthrough.",
+      "You install on a laptop or a test server. Nothing is uploaded; nothing phones home."
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Blog — Adapdev",
+    "description": "Notes from building ADMS — release notes, essays, and the occasional piece on building on-premises software in 2026 for a market that isn't well-served by subscription-only SaaS.",
+    "postTitleSuffix": " — Adapdev"
+  },
+  "hero": {
+    "eyebrow": "Writing",
+    "heading": "Notes from building ADMS",
+    "blurb": "Release notes, essays, and short pieces on building on-premises software for Australian small business. Once a month, give or take.",
+    "read": "Read"
+  },
+  "tabs": [
+    { "label": "All",         "value": "" },
+    { "label": "Product",     "value": "Product" },
+    { "label": "Release",     "value": "Release" },
+    { "label": "Practice",    "value": "Practice" },
+    { "label": "Operations",  "value": "Operations" }
+  ],
+  "tabsLabel": "Filter posts by category",
+  "empty": "Nothing filed under this one yet.",
+  "metaSeparator": "•",
+  "related": "Related reading"
+}

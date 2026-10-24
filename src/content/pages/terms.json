@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Terms & conditions — Adapdev",
+    "description": "The terms under which adapdev.com.au is operated. The ADMS software has its own end-user licence agreement, shipped with the installer."
+  },
+  "updated": "9 October 2026",
+  "title": "Terms & conditions",
+  "intro": "These terms apply to your use of adapdev.com.au. The ADMS software has its own end-user licence agreement (EULA), which is shipped with the installer and must be accepted before installation; those terms, not these, govern your use of the ADMS software.",
+  "sections": [
+    {
+      "heading": "This website",
+      "body": [
+        "adapdev.com.au is operated by Adapdev Pty Ltd, a company registered in Australia. Content on the site is provided for information. Nothing on this site is a legal, financial or technical recommendation for a specific business situation; if you need that, contact us or your own adviser.",
+        "We may update the site, including these terms, at any time. Material changes are announced in the blog."
+      ]
+    },
+    {
+      "heading": "Intellectual property",
+      "body": [
+        "All material on this site — text, imagery, trademarks — is either owned by Adapdev or used with the owner's permission. The ADMS wordmark and the Adapdev wordmark are our trademarks. You may link to our pages; please don't republish our content without asking."
+      ]
+    },
+    {
+      "heading": "Downloads",
+      "body": [
+        "The ADMS installers linked from this site are provided for evaluation and use under the ADMS EULA. Every installer is Authenticode-signed by Adapdev Pty Ltd and accompanied by a SHA-256 checksum. If a download fails to verify against the published checksum, do not install it — contact us immediately."
+      ]
+    },
+    {
+      "heading": "Liability",
+      "body": [
+        "To the extent permitted by law, this site is provided 'as is' and without warranty. Our aggregate liability for anything arising out of your use of this site is limited to AUD $100.",
+        "Nothing in these terms excludes any statutory consumer guarantee that cannot be excluded under Australian Consumer Law."
+      ]
+    },
+    {
+      "heading": "Jurisdiction",
+      "body": [
+        "These terms are governed by the laws of Queensland, Australia. Disputes are to be resolved in the courts of Queensland or the Federal Court of Australia."
+      ]
+    }
+  ]
+}

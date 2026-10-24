@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Privacy policy — Adapdev",
+    "description": "How Adapdev handles personal information under the Privacy Act 1988 (Cth) and the Australian Notifiable Data Breaches scheme."
+  },
+  "updated": "9 October 2026",
+  "title": "Privacy policy",
+  "intro": "This policy explains what Adapdev Pty Ltd (we, us, Adapdev) collects when you visit adapdev.com.au, use the ADMS website, or contact us. It is written under the Privacy Act 1988 (Cth) and the Australian Privacy Principles.",
+  "sections": [
+    {
+      "heading": "What we collect",
+      "body": [
+        "The adapdev.com.au website uses Cloudflare's cookieless analytics; we see visit counts, pages and country, but not individual visitors.",
+        "If you fill in the contact form, we collect what you give us: name, email, and the message. We use that information to reply, and nothing else.",
+        "ADMS itself, when installed on your own hardware, stores your documents and metadata in your own database on your own machine. Adapdev does not have access to that data unless you explicitly send it to us during a support request."
+      ]
+    },
+    {
+      "heading": "What we do with it",
+      "body": [
+        "Contact-form submissions are used to reply to you. We do not add you to a marketing list, we do not share your details with a third party, and we do not use them to profile or re-target you.",
+        "If you request a demo installer, we record that you asked for one so we don't bother you with the same offer later. That record is deleted twelve months after the last contact."
+      ]
+    },
+    {
+      "heading": "Third parties",
+      "body": [
+        "The site is hosted on Cloudflare Pages. Cloudflare receives standard HTTP request information (IP address, user agent, URL) for routing and security — see Cloudflare's privacy policy for detail.",
+        "If you send a contact-form message, it is relayed to our email provider for delivery. No other third parties receive your submission.",
+        "We do not use Google Analytics, Facebook Pixel, LinkedIn Insight, or any other third-party tracker on this site."
+      ]
+    },
+    {
+      "heading": "Your rights",
+      "body": [
+        "You can ask what we hold about you, correct it, or ask us to delete it. Email hello@adapdev.com.au and we will respond within thirty days.",
+        "If you are not satisfied with how we have handled your information, you can complain to the Office of the Australian Information Commissioner (OAIC) at oaic.gov.au."
+      ]
+    },
+    {
+      "heading": "Changes",
+      "body": [
+        "If this policy changes we will update the date at the top of the page. Material changes will also be announced in the blog."
+      ]
+    }
+  ]
+}

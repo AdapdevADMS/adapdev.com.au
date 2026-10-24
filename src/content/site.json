@@ -1,0 +1,44 @@
+{
+  "brand": "adapdev",
+  "nav": {
+    "links": [
+      { "href": "/about", "label": "About" },
+      { "href": "/pricing", "label": "Pricing" },
+      { "href": "/contact", "label": "Contact" },
+      { "href": "/blog", "label": "Blog" }
+    ],
+    "login": { "href": "/contact", "label": "Sign in" },
+    "demo": { "href": "/contact", "label": "Request a demo" }
+  },
+  "cta": {
+    "headingMuted": "On your hardware. ",
+    "heading": "Not someone else's cloud.",
+    "description": "Try ADMS on a laptop. No subscription, no upload, no account.",
+    "button": { "href": "/contact", "label": "Request a demo" },
+    "image": "/assets/site/handshake-particles.webp",
+    "imageAlt": "Soft particle field in low light"
+  },
+  "footer": {
+    "columns": [
+      { "label": "Explore", "links": [
+        { "href": "/about", "label": "About" },
+        { "href": "/pricing", "label": "Pricing" },
+        { "href": "/contact", "label": "Contact" },
+        { "href": "/blog", "label": "Blog" }
+      ] },
+      { "label": "Contact", "links": [
+        { "href": "mailto:hello@adapdev.com.au", "label": "hello@adapdev.com.au" }
+      ] },
+      { "label": "Legal", "links": [
+        { "href": "/privacy", "label": "Privacy policy" },
+        { "href": "/terms", "label": "Terms & conditions" }
+      ] },
+      { "label": "Elsewhere", "links": [
+        { "href": "https://github.com/adapdevADMS", "label": "GitHub", "external": true },
+        { "href": "https://www.linkedin.com", "label": "LinkedIn", "external": true }
+      ] }
+    ],
+    "copyright": "© 2026 Adapdev Pty Ltd.",
+    "note": "Built in Brisbane. ABN registered in Australia."
+  }
+}

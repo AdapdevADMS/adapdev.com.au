@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "About — Adapdev",
+    "description": "Adapdev Pty Ltd builds practical, on-premises software for Australian sole traders, small businesses and law firms. One developer, one product line, no venture money."
+  },
+  "hero": {
+    "title": "Software built for the people writing the invoices.",
+    "description": "Adapdev is a small software shop in Australia. We build the tools we would want if we were running the business ourselves — practical, local, and ours.",
+    "photo": {
+      "src": "/assets/about/teamwork-makes-the-dream-work.jpg",
+      "alt": "A quiet desk with a laptop, a mug, and a document",
+      "width": 1536,
+      "height": 651
+    },
+    "trustedLabel": "Built on and for a familiar stack",
+    "logos": [
+      { "name": ".NET 9",           "src": "/assets/about/logo-corvane.svg" },
+      { "name": "WPF + Prism",      "src": "/assets/about/logo-tessel.svg" },
+      { "name": "SQL Server",       "src": "/assets/about/logo-quillo.svg" },
+      { "name": "SQLite",           "src": "/assets/about/logo-brightfold.svg" },
+      { "name": "Microsoft Office", "src": "/assets/about/logo-ostra.svg" },
+      { "name": "Windows",          "src": "/assets/about/logo-maplewave.svg" },
+      { "name": "ASP.NET Core",     "src": "/assets/about/logo-vantly.svg" }
+    ]
+  },
+  "story": {
+    "eyebrow": "About",
+    "title": "Document management was the first thing SaaS came for and the thing SaaS got wrong.",
+    "body": [
+      "The last decade's answer was a subscription portal, a monthly bill, and the expectation that your clients' files would live on hardware you had never seen. For a sole-trader electrician or a three-partner law firm, that was never a good trade.",
+      "The mistake was treating document management as a cloud problem. It is a filing problem. A tradie needs job folders they can find next Tuesday; a solicitor needs matter files with an audit trail that holds up at a Law Society review. Neither needs their documents to leave the office.",
+      "Adapdev started from the other end. One development team, one product line (ADMS), and a stubborn preference for software that installs on hardware you own, speaks the client/matter/job language you already use, and keeps running when the internet is down.",
+      "That is the whole idea. Everything in ADMS exists to make it the easiest way to file a document in Australia, and the hardest way to accidentally lose one."
+    ]
+  },
+  "rules": {
+    "eyebrow": "How we work",
+    "title": "A few things we will not do",
+    "items": [
+      {
+        "number": "01 RULE",
+        "text": "No cloud lock-in. Your database is on your hardware. If you stop paying Adapdev, ADMS keeps running and your files stay yours.",
+        "texture": {
+          "src": "/assets/about/rule-texture-1.webp",
+          "alt": "Folded fabric lit from the side",
+          "width": 444,
+          "height": 1536
+        }
+      },
+      {
+        "number": "02 RULE",
+        "text": "No per-document pricing. One licence per installation. File ten documents or ten million — the price is the same.",
+        "texture": {
+          "src": "/assets/about/rule-texture-2.webp",
+          "alt": "Close ridges in low light",
+          "width": 256,
+          "height": 886
+        }
+      },
+      {
+        "number": "03 RULE",
+        "text": "No tier-one support queue. The developer who shipped the release is the person who answers the bug report.",
+        "texture": {
+          "src": "/assets/about/rule-texture-3.webp",
+          "alt": "A soft crease catching light",
+          "width": 256,
+          "height": 886
+        }
+      },
+      {
+        "number": "04 RULE",
+        "text": "No account you didn't create. There is no sign-up screen, no mandatory telemetry, no email list you got added to.",
+        "texture": {
+          "src": "/assets/about/rule-texture-4.webp",
+          "alt": "Layered fabric edge in low light",
+          "width": 256,
+          "height": 886
+        }
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Who you are talking to",
+    "title": "The whole team. One development team. On purpose.",
+    "people": [
+      {
+        "name": "Richard",
+        "role": "Developer, support, and the person who answers the email",
+        "photo": {
+          "src": "/assets/about/team-ines-duarte.webp",
+          "alt": "Portrait placeholder — to be replaced"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Page not found — Adapdev",
+    "description": "The page you were looking for isn't here."
+  },
+  "code": "404",
+  "title": "That page is somewhere else.",
+  "description": "It may have moved, or you may have followed a stale link. Try the home page, or head straight to the ADMS product overview.",
+  "buttons": [
+    { "href": "/",        "label": "Home" },
+    { "href": "/about",   "label": "About Adapdev", "variant": "ghost" }
+  ]
+}
