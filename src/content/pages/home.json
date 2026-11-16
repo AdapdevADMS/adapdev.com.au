@@ -1,43 +1,43 @@
 {
   "meta": {
     "title": "Adapdev — bespoke software for Australian small business",
-    "description": "ADMS is a document management system for Australian sole traders, small businesses and law firms. On your hardware, integrated with Office, no subscription."
+    "description": "Adapdev is a Brisbane software partnership. We build full-fit custom software for sole traders, small businesses and small law firms — on hardware you own, in the language you already use. ADMS is available now; the Home Dialysis Tracker is in development for 2027."
   },
   "hero": {
-    "eyebrow": "ADMS — Adapdev Document Management System",
-    "title": "Your clients' paperwork, filed ",
-    "titleMuted": "before you close the tab.",
-    "description": "ADMS gives Australian sole traders, small businesses and law firms a single, searchable home for every document that belongs to a client, a matter or a job. Save straight from Word or Outlook. Everything stays on your hardware.",
+    "eyebrow": "Adapdev — Brisbane software partnership",
+    "title": "Full-fit software for small business. ",
+    "titleMuted": "Not part-solutions in a browser tab.",
+    "description": "Adapdev builds custom software that fits the way you already work — on hardware you own, in the language your team already uses. Two products so far: ADMS is in use today, and the Home Dialysis Tracker is in development for 2027. We also take on bespoke engagements when a product doesn't fit.",
     "button": {
-      "href": "/contact",
-      "label": "Request a demo"
+      "href": "#products",
+      "label": "See what we build"
     },
     "background": "/assets/home/hero-fabric.webp",
-    "backgroundAlt": "Soft folded fabric in low light",
-    "screenshot": "/assets/home/inbox.webp",
-    "screenshotAlt": "ADMS desktop client showing a client's matters and documents",
+    "backgroundAlt": "Software development tools",
+    "screenshot": "/assets/home/software_development.jpg",
+    "screenshotAlt": "A glimpse of Adapdev software — the ADMS desktop client in use",
     "stats": [
       {
-        "value": "100%",
-        "label": "On your own hardware"
+        "value": "On-prem",
+        "label": "Software you can unplug"
       },
       {
-        "value": "$0",
-        "label": "Monthly subscription"
+        "value": "One team",
+        "label": "The developer answers the email"
       },
       {
-        "value": "<10 min",
-        "label": "From installer to first filed document"
+        "value": "2 products",
+        "label": "ADMS today, HDT in 2027"
       }
     ]
   },
   "changes": {
-    "eyebrow": "What changes",
-    "title": "What changes for a small business running ADMS",
+    "eyebrow": "How we build",
+    "title": "Four things we do differently from the browser-tab default",
     "cards": [
       {
-        "title": "The shoebox becomes a searchable index",
-        "description": "Scanned invoices, PDF contracts, email attachments — import a folder once and ADMS files every page under the right client. Full-text search surfaces anything in two keystrokes.",
+        "title": "Shaped around your workflow, not ours",
+        "description": "We start by learning how you already run the business, then shape the software to that. Clients, matters, jobs — whatever you call them, that's what the interface calls them too. No forced re-training.",
         "image": "/assets/home/change-queue.webp",
         "imageAlt": "Close-up of soft grey fabric",
         "panel": {
@@ -57,8 +57,8 @@
         }
       },
       {
-        "title": "Save from Word lands in the right matter",
-        "description": "The Word, Outlook, Excel and PowerPoint add-ins add File → Save to ADMS. One prompt for the client and matter, one click, and the file is versioned and audited.",
+        "title": "Speaks the language you already use",
+        "description": "A tradie has jobs. A solicitor has matters. A dialysis patient has sessions. We don't flatten those into a one-size-fits-all 'record' — the vocabulary is yours and the UI follows.",
         "image": "/assets/home/change-handover.webp",
         "imageAlt": "Folded linen in raking light",
         "panel": {
@@ -75,8 +75,8 @@
         }
       },
       {
-        "title": "Your office network becomes a shared archive",
-        "description": "Multi-person deployments share one ADMS database. Permissions per client, per matter, per document type. Every read, write and delete logged with who, when and from where.",
+        "title": "Lives on your hardware",
+        "description": "On-premises is the default, cloud only when it genuinely helps. Your data sits on hardware you own, works when the internet doesn't, and never arrives on an invoice you didn't authorise.",
         "image": "/assets/home/change-overnight.webp",
         "imageAlt": "Rippled sand at night",
         "panel": {
@@ -90,8 +90,8 @@
         }
       },
       {
-        "title": "The subscription you don't pay",
-        "description": "ADMS is a one-off licence per installation. No per-seat fee, no per-document charge, no cloud bill that arrives in US dollars. The data lives on hardware you already own.",
+        "title": "No subscription treadmill",
+        "description": "Products are sold as one-off licences; bespoke work is fixed-price per engagement. No per-seat multiplier, no 'the plan you need is the one above', no cloud bill in US dollars.",
         "image": "/assets/home/change-ninety.webp",
         "imageAlt": "Windblown sand ridges",
         "panel": {
@@ -122,35 +122,39 @@
     ]
   },
   "how": {
-    "eyebrow": "How it works",
-    "title": "Four steps, nothing hidden on your drive",
-    "body": "ADMS runs locally. There is no account to create, no sign-up form, no server you can't log into. Install, point it at your folders, and you are filing within ten minutes.",
+    "eyebrow": "How we work with you",
+    "title": "Four steps from first email to in production",
+    "body": "We don't pitch and run. Every engagement — product or bespoke — follows the same shape, and you decide whether to keep going at every step.",
     "steps": [
       {
-        "title": "Install",
-        "description": "The signed server installer stands up the API, creates the dedicated service account, and provisions the database on SQLite or SQL Server.",
+        "title": "Scope",
+        "description": "You tell us what you do and where it hurts. We listen, ask the awkward questions, and come back with a written summary of what the work would involve. No charge.",
         "image": "/assets/home/step-reads.webp",
         "imageAlt": "Light radiating from a single point"
       },
       {
-        "title": "Point",
-        "description": "Drag the folder of existing documents onto the desktop client. ADMS reads them, files them under their client, and makes everything searchable.",
+        "title": "Design",
+        "description": "A short written design — screens, data model, where the data lives — and a fixed quote. You sign it (or you don't). Either way the design is yours to keep.",
         "image": "/assets/home/step-sorts.webp",
         "imageAlt": "Fine parallel threads fanning out"
       },
       {
-        "title": "Save",
-        "description": "The Office add-ins add File → Save to ADMS. Pick a client and matter, hit Enter, done. The file is versioned and the audit log records who filed it.",
+        "title": "Build",
+        "description": "Short iterations, with you reviewing a working slice at each one. Nothing is a surprise at the end because nothing was hidden in the middle.",
         "image": "/assets/home/step-answers.webp",
         "imageAlt": "Soft folds catching light"
       },
       {
-        "title": "Find",
-        "description": "Full-text search across every document. Filter by client, matter, document type, author or date. Open in the native application with one click.",
+        "title": "Hand over",
+        "description": "We install, train, and leave you a written runbook. Support is one address, and the developer who shipped the code is the person who answers it.",
         "image": "/assets/home/step-hands-over.webp",
         "imageAlt": "Two surfaces meeting at an edge"
       }
     ]
+  },
+  "pricing": {
+    "eyebrow": "",
+    "title": ""
   },
   "testimonials": {
     "title": "Early installs,\nin their words",
@@ -182,51 +186,47 @@
       }
     ]
   },
-  "pricing": {
-    "eyebrow": "Pricing",
-    "title": "One licence per installation. No per-document fee."
-  },
   "faq": {
     "eyebrow": "FAQ",
-    "title": "The practical questions first",
+    "title": "The questions most people start with",
     "card": {
-      "title": "Something else on your mind?",
+      "title": "Something more specific?",
       "text": "We reply the same working day.",
       "button": {
         "href": "/contact",
-        "label": "Contact us"
+        "label": "Email us"
       }
     },
     "items": [
       {
-        "q": "Where does the data live?",
-        "a": "On your hardware. The server installer creates a SQLite database (sole-trader install, one laptop) or configures a SQL Server database (small-business or law-firm install, one on-site server). ADMS never ships your documents to Adapdev, Microsoft, Amazon, or anyone else. There is no SaaS backend to switch off."
+        "q": "How do you price a project?",
+        "a": "Products are a one-off licence per installation, with twelve months of updates included; see /adms for ADMS pricing. Bespoke work is fixed-price per engagement, quoted from a short written design we produce together. No per-hour meter, no per-seat multiplier. If a change is in scope we don't invoice again; if it's not, we agree a change before we do the work."
       },
       {
-        "q": "What happens if we outgrow the laptop install?",
-        "a": "The data migrates. The sole-trader SQLite database can be imported straight into a small-business SQL Server install with a bundled tool — clients, matters, documents, permissions, audit log, the lot. You don't lose a filing when you add staff."
+        "q": "What's a typical engagement timeline?",
+        "a": "A product install — ADMS, say — is usually under a day from signed quote to first filed document. A bespoke build runs from four to twelve weeks depending on scope; longer engagements get split into releases so you see working software monthly rather than all at once at the end."
       },
       {
-        "q": "Does it work with the Office we already have?",
-        "a": "Yes. The desktop installer adds native add-ins to Word, Outlook, Excel and PowerPoint. Microsoft 365, Office 2021 or Office 2019 are all supported. There is no cloud sign-in step; the add-ins talk to the ADMS API on your own network."
+        "q": "Where are you based, and can you work outside Australia?",
+        "a": "Brisbane, Queensland. Most of our work is Australian small business because that's who we understand best; we do not take overseas engagements at this point. Everything we ship runs locally, so time zones only matter for conversation, not for the product."
       },
       {
-        "q": "Our existing filing is a mess — is that a dealbreaker?",
-        "a": "No, and it is usually the reason to start. Drop the current folder structure on the desktop client; ADMS imports what's there, surfaces the duplicates, and gives you a clean filing scheme to fix the mess once rather than every day."
+        "q": "Can we run the software without you after launch?",
+        "a": "Yes — that is the point of the model. Every product and every bespoke build ships with a written runbook, an on-site admin login, and the ability to export every byte of your own data. If you stop paying Adapdev, the software you already have keeps running."
       },
       {
-        "q": "What about backup and disaster recovery?",
-        "a": "ADMS does not replace your backup strategy, and it doesn't try to. The sole-trader SQLite database is one file — copy it. The small-business SQL Server database runs on your own server — use the backup tooling you already have, or the scripted job the installer ships. The installer prints a recovery runbook you can hand to IT."
+        "q": "What do you build with?",
+        "a": ".NET on the server side (ASP.NET Core, Entity Framework), WPF with the Prism framework for Windows desktop clients, and web front-ends in Astro or Vite/React when the brief calls for a browser. SQL Server and SQLite are our default databases. All choices we can live with for a decade of maintenance; none chosen to pad a resume."
       },
       {
-        "q": "Who supports it?",
-        "a": "Adapdev directly. There is no first-tier queue — the person who shipped the release is the person who answers the bug report. We're a small shop; see the About page."
+        "q": "Who do you NOT work with?",
+        "a": "Businesses that want to buy headcount reductions as a feature, or that want software designed to make it harder for a customer to leave. If your idea of value is a lock-in the end user can't unwind, we're the wrong partnership."
       }
     ]
   },
   "blog": {
     "eyebrow": "Writing",
-    "title": "Notes from building ADMS",
+    "title": "Notes from building Adapdev software",
     "button": {
       "href": "/blog",
       "label": "Read more"

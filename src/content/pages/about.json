@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "About — Adapdev",
-    "description": "Adapdev Pty Ltd builds practical, on-premises software for Australian sole traders, small businesses and law firms. One developer, one product line, no venture money."
+    "description": "Adapdev is a Brisbane software partnership that builds full-fit custom software for Australian small business. One developer, two products so far, no venture money, and a stubborn preference for software you can unplug."
   },
   "hero": {
     "title": "Software built for the people writing the invoices.",
-    "description": "Adapdev is a small software shop in Australia. We build the tools we would want if we were running the business ourselves — practical, local, and ours.",
+    "description": "Adapdev is a small Brisbane software shop. We build the tools we would want if we were running the business ourselves — practical, local, and ours. Two products in the family today; more as the practice grows.",
     "photo": {
       "src": "/assets/about/teamwork-makes-the-dream-work.jpg",
       "alt": "A quiet desk with a laptop, a mug, and a document",
@@ -25,12 +25,12 @@
   },
   "story": {
     "eyebrow": "About",
-    "title": "Document management was the first thing SaaS came for and the thing SaaS got wrong.",
+    "title": "Small-business software was the first thing SaaS came for and the thing SaaS got wrong.",
     "body": [
-      "The last decade's answer was a subscription portal, a monthly bill, and the expectation that your clients' files would live on hardware you had never seen. For a sole-trader electrician or a three-partner law firm, that was never a good trade.",
-      "The mistake was treating document management as a cloud problem. It is a filing problem. A tradie needs job folders they can find next Tuesday; a solicitor needs matter files with an audit trail that holds up at a Law Society review. Neither needs their documents to leave the office.",
-      "Adapdev started from the other end. One development team, one product line (ADMS), and a stubborn preference for software that installs on hardware you own, speaks the client/matter/job language you already use, and keeps running when the internet is down.",
-      "That is the whole idea. Everything in ADMS exists to make it the easiest way to file a document in Australia, and the hardest way to accidentally lose one."
+      "The last decade's answer was a subscription portal, a monthly bill, and the expectation that your business records would live on hardware you had never seen. For a sole-trader electrician, a three-partner law firm, or a patient at a renal unit, that was never a good trade.",
+      "The mistake was treating every problem as a cloud problem. Most of them aren't. A tradie needs job folders they can find next Tuesday; a solicitor needs matter files with an audit trail that holds up at a Law Society review; a dialysis patient needs a careful logbook the nephrology team can read when the batteries are fine and when they aren't. None of that needs the documents to leave the office.",
+      "Adapdev started from the other end. One development team, a stubborn preference for software that installs on hardware you own, and a shape of engagement where either a product off the shelf fits you, or we build you something that does. Two products so far — ADMS, in use today; the Home Dialysis Tracker, in development for 2027 — and a bespoke practice behind them that keeps the catalogue honest.",
+      "That is the whole idea. Everything we ship exists to be the easiest way to do the thing you came to it to do, and the hardest way to accidentally lose it."
     ]
   },
   "rules": {
@@ -39,7 +39,7 @@
     "items": [
       {
         "number": "01 RULE",
-        "text": "No cloud lock-in. Your database is on your hardware. If you stop paying Adapdev, ADMS keeps running and your files stay yours.",
+        "text": "No cloud lock-in. Your database is on your hardware. If you stop paying Adapdev, the software keeps running and your files stay yours.",
         "texture": {
           "src": "/assets/about/rule-texture-1.webp",
           "alt": "Folded fabric lit from the side",
@@ -49,7 +49,7 @@
       },
       {
         "number": "02 RULE",
-        "text": "No per-document pricing. One licence per installation. File ten documents or ten million — the price is the same.",
+        "text": "No per-seat multiplier. One-off licence for products, fixed-price scope for bespoke work. Adding a teammate doesn't restart the invoice.",
         "texture": {
           "src": "/assets/about/rule-texture-2.webp",
           "alt": "Close ridges in low light",
@@ -69,7 +69,7 @@
       },
       {
         "number": "04 RULE",
-        "text": "No account you didn't create. There is no sign-up screen, no mandatory telemetry, no email list you got added to.",
+        "text": "No account you didn't create. There is no sign-up screen on anything we ship, no mandatory telemetry, no email list you got added to.",
         "texture": {
           "src": "/assets/about/rule-texture-4.webp",
           "alt": "Layered fabric edge in low light",
@@ -81,7 +81,7 @@
   },
   "team": {
     "eyebrow": "Who you are talking to",
-    "title": "The whole team. One development team. On purpose.",
+    "title": "One development team. On purpose.",
     "people": [
       {
         "name": "Richard",

@@ -2,40 +2,42 @@
   "brand": "adapdev",
   "nav": {
     "links": [
-      { "href": "/about", "label": "About" },
-      { "href": "/pricing", "label": "Pricing" },
-      { "href": "/contact", "label": "Contact" },
-      { "href": "/blog", "label": "Blog" }
+      { "href": "/#products", "label": "Products" },
+      { "href": "/about",     "label": "About" },
+      { "href": "/blog",      "label": "Blog" },
+      { "href": "/contact",   "label": "Contact" }
     ],
-    "login": { "href": "/contact", "label": "Sign in" },
-    "demo": { "href": "/contact", "label": "Request a demo" }
+    "login": { "href": "/adms",    "label": "ADMS →" },
+    "demo":  { "href": "/contact", "label": "Talk to us" }
   },
   "cta": {
-    "headingMuted": "On your hardware. ",
-    "heading": "Not someone else's cloud.",
-    "description": "Try ADMS on a laptop. No subscription, no upload, no account.",
-    "button": { "href": "/contact", "label": "Request a demo" },
+    "headingMuted": "Software shaped around your business, ",
+    "heading": "not the other way around.",
+    "description": "Tell us what you do and how you do it. We'll come back inside a working day with a plan — free, no commitment, no sales dance.",
+    "button": { "href": "/contact", "label": "Start a conversation" },
     "image": "/assets/site/handshake-particles.webp",
     "imageAlt": "Soft particle field in low light"
   },
   "footer": {
     "columns": [
-      { "label": "Explore", "links": [
-        { "href": "/about", "label": "About" },
-        { "href": "/pricing", "label": "Pricing" },
-        { "href": "/contact", "label": "Contact" },
-        { "href": "/blog", "label": "Blog" }
+      { "label": "Products", "links": [
+        { "href": "/adms",       "label": "ADMS — Document management" },
+        { "href": "/#hdt",       "label": "Home Dialysis Tracker (2027)" },
+        { "href": "/contact",    "label": "Bespoke work" }
       ] },
-      { "label": "Contact", "links": [
-        { "href": "mailto:hello@adapdev.com.au", "label": "hello@adapdev.com.au" }
+      { "label": "Company", "links": [
+        { "href": "/about",   "label": "About Adapdev" },
+        { "href": "/blog",    "label": "Blog" },
+        { "href": "/contact", "label": "Contact" }
       ] },
       { "label": "Legal", "links": [
         { "href": "/privacy", "label": "Privacy policy" },
-        { "href": "/terms", "label": "Terms & conditions" }
+        { "href": "/terms",   "label": "Terms & conditions" }
       ] },
       { "label": "Elsewhere", "links": [
-        { "href": "https://github.com/adapdevADMS", "label": "GitHub", "external": true },
-        { "href": "https://www.linkedin.com", "label": "LinkedIn", "external": true }
+        { "href": "mailto:hello@adapdev.com.au",    "label": "hello@adapdev.com.au" },
+        { "href": "https://github.com/adapdevADMS", "label": "GitHub",   "external": true },
+        { "href": "https://www.linkedin.com",       "label": "LinkedIn", "external": true }
       ] }
     ],
     "copyright": "© 2026 Adapdev Pty Ltd.",

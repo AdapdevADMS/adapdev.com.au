@@ -1,0 +1,114 @@
+---
+/**
+ * OurProducts.astro
+ *
+ * The product portfolio section on the Adapdev primary site home page.
+ * Lives alongside the Lapse theme's section components but is specific to
+ * the primary site (the ADMS sub-site does not render this). Reads
+ * src/content/products.json.
+ *
+ * The status badge drives colour: `available` uses the success palette,
+ * `in-development` the preview/accent palette, `service` the muted palette.
+ * Card variants are kept visually consistent with the Plans.astro card
+ * treatment so the home page reads as a single system.
+ */
+import Button from '../ui/Button.astro';
+import products from '../../content/products.json';
+---
+<section class="products" id="products">
+  <header class="products-head">
+    <p class="t-eyebrow">{products.eyebrow}</p>
+    <h2 class="t-h2 balance">{products.title}</h2>
+    <p class="t-body-m balance">{products.blurb}</p>
+  </header>
+
+  <div class="products-grid">
+    {products.items.map((p) => (
+      <article class={`product product--${p.status}`} id={p.id}>
+        <header class="product-head">
+          <h3 class="t-h3 product-name">{p.name}</h3>
+          <span class={`product-badge product-badge--${p.status}`}>{p.statusLabel}</span>
+        </header>
+        <p class="t-body-m product-tagline">{p.tagline}</p>
+        <p class="t-body-m product-desc">{p.description}</p>
+        <dl class="product-meta">
+          {p.meta.map(([k, v]) => (
+            <div class="product-meta-row">
+              <dt>{k}</dt>
+              <dd>{v}</dd>
+            </div>
+          ))}
+        </dl>
+        <Button href={p.button.href} variant={p.button.variant === 'primary' ? undefined : 'ghost'}>
+          {p.button.label}
+        </Button>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .products {
+    width: 100%; max-width: var(--canvas); margin: 0 auto;
+    padding: 100px 20px;
+    display: flex; flex-direction: column; gap: 56px;
+  }
+  .products-head {
+    width: 700px; max-width: 100%; align-self: center;
+    display: flex; flex-direction: column; gap: 20px; text-align: center;
+  }
+  .products-head p.t-body-m { color: var(--grey); }
+
+  .products-grid {
+    display: grid; gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+  }
+  .product {
+    position: relative;
+    padding: 32px 28px;
+    background: var(--surface);
+    border: 1px solid var(--grey-20);
+    border-radius: var(--radius);
+    display: flex; flex-direction: column; gap: 16px;
+    transition: border-color 0.3s var(--ease-soft), transform 0.3s var(--ease-soft);
+  }
+  .product:hover { border-color: var(--accent-bright); transform: translateY(-2px); }
+
+  .product--available        { border-color: color-mix(in srgb, var(--accent-bright) 25%, var(--grey-20)); }
+
+  .product-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .product-name { color: var(--white); margin: 0; }
+
+  .product-badge {
+    display: inline-block; padding: 3px 10px; border-radius: 999px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .product-badge--available       { background: rgba(22, 101, 52, 0.25);  color: #86efac; }
+  .product-badge--in-development  { background: var(--accent-tint);       color: var(--accent-sky); }
+  .product-badge--service         { background: rgba(143, 167, 196, 0.18); color: var(--white); }
+
+  .product-tagline { color: var(--white); font-weight: 500; margin: 0; }
+  .product-desc    { color: var(--grey); margin: 0; }
+
+  .product-meta { margin: 8px 0 12px; padding: 0; display: grid; gap: 10px; }
+  .product-meta-row {
+    display: grid; grid-template-columns: 90px 1fr; gap: 12px;
+    font-size: 14px; line-height: 1.4em;
+  }
+  .product-meta-row dt { color: var(--white); font-weight: 500; margin: 0; }
+  .product-meta-row dd { color: var(--grey); margin: 0; }
+
+  .product :global(a) { margin-top: auto; align-self: flex-start; }
+
+  @media (max-width: 1199.98px) {
+    .products-grid { grid-template-columns: 1fr 1fr; }
+    .product { padding: 28px 24px; }
+  }
+  @media (max-width: 809.98px) {
+    .products { padding: 64px 20px; gap: 40px; }
+    .products-grid { grid-template-columns: 1fr; }
+    .product-meta-row { grid-template-columns: 1fr; gap: 2px; }
+  }
+</style>

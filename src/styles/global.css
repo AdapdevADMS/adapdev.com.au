@@ -1,7 +1,7 @@
 @import './tokens.css';
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; background: var(--black); }
+html { -webkit-text-size-adjust: 100%; background: var(--black); color-scheme: dark; }
 body {
   margin: 0;
   background: var(--black);

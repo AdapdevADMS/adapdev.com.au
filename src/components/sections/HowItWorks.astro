@@ -13,7 +13,12 @@ const { how } = home;
       <div class="slides">
         {how.steps.map((s, i) => (
           <div class="how-card slide" data-step={i} style={i ? 'opacity:0' : undefined}>
-            <img class="img" src={s.image} alt={s.imageAlt} width="1000" height="1000" loading="lazy" />
+            <img
+              class="img"
+              src={s.image.replace(".webp", "-500.webp")}
+              srcset={`${s.image.replace(".webp", "-500.webp")} 500w, ${s.image} 1000w`}
+              sizes="(max-width: 1199.98px) 100vw, 440px"
+              alt={s.imageAlt} width="1000" height="1000" loading="lazy" />
             <div class="how-body"><h3 class="t-h4">{s.title}</h3><p class="t-body-m how-desc">{s.description}</p></div>
           </div>
         ))}
@@ -31,7 +36,12 @@ const { how } = home;
       {how.steps.map((s) => (
         <div class="stacked-card">
           <div class="how-card">
-            <img class="img" src={s.image} alt={s.imageAlt} width="1000" height="1000" loading="lazy" />
+            <img
+              class="img"
+              src={s.image.replace(".webp", "-500.webp")}
+              srcset={`${s.image.replace(".webp", "-500.webp")} 500w, ${s.image} 1000w`}
+              sizes="(max-width: 1199.98px) 100vw, 440px"
+              alt={s.imageAlt} width="1000" height="1000" loading="lazy" />
             <div class="how-body"><h3 class="t-h4">{s.title}</h3><p class="t-body-m how-desc">{s.description}</p></div>
           </div>
         </div>

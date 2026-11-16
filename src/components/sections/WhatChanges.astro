@@ -17,7 +17,12 @@ const [queue, handover, overnight, ninety] = changes.cards;
           <article class="changes-card">
             <h3 class="t-h4">{card.title}</h3>
             <div class="scene">
-              <img class="scene-bg" src={card.image} alt={card.imageAlt} width="1000" height="681" loading="lazy" />
+              <img
+                class="scene-bg"
+                src={card.image.replace(".webp", "-600.webp")}
+                srcset={`${card.image.replace(".webp", "-600.webp")} 600w, ${card.image} 1000w`}
+                sizes="(max-width: 1199.98px) 100vw, 490px"
+                alt={card.imageAlt} width="1000" height="681" loading="lazy" />
               {i === 0 && (
                 <div class="changes-panel changes-panel--queue">
                   <div class="changes-head"><p class="mono-s grow">{queue.panel.label}</p><p class="mono-s">{queue.panel.status}</p></div>

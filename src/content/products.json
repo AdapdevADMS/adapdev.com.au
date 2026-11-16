@@ -1,0 +1,52 @@
+{
+  "eyebrow": "Products",
+  "title": "What we build",
+  "blurb": "Two products in the Adapdev portfolio today, and the bespoke practice they came out of. Click through for the ones that are live; the others have a note on where they're up to.",
+  "items": [
+    {
+      "id": "adms",
+      "name": "ADMS",
+      "fullName": "Adapdev Document Management System",
+      "status": "available",
+      "statusLabel": "Available now",
+      "tagline": "Document management for Australian sole traders, small businesses and small law firms.",
+      "description": "Client- and matter-centric filing with full-text search, Office add-ins, and a REST API. On-premises deployment, one-off licence, SQLite or SQL Server. In daily use.",
+      "button": { "href": "/adms", "label": "Visit the ADMS site", "variant": "primary" },
+      "meta": [
+        ["For",      "Sole traders • small business • small/medium law firms"],
+        ["Shape",    ".NET 9 API + WPF desktop + Office add-ins"],
+        ["Delivery", "On-premises, one-off licence per install"]
+      ]
+    },
+    {
+      "id": "hdt",
+      "name": "Home Dialysis Tracker",
+      "fullName": "Home Dialysis Tracker",
+      "status": "in-development",
+      "statusLabel": "In development — 2027",
+      "tagline": "Session logging for home haemodialysis patients.",
+      "description": "A small, careful logbook for people doing their own haemodialysis at home: pre- and post-session vitals, machine readings, fluid balance, and a report their nephrology team can read. Local-first, offline-tolerant, patient-owned data.",
+      "button": { "href": "/contact?subject=HDT", "label": "Register interest", "variant": "secondary" },
+      "meta": [
+        ["For",      "Home haemodialysis patients and their nephrology team"],
+        ["Shape",    "Local app, sync with the renal unit when convenient"],
+        ["Status",   "In active development; early-access programme forming for 2027"]
+      ]
+    },
+    {
+      "id": "bespoke",
+      "name": "Bespoke work",
+      "fullName": "Bespoke custom software",
+      "status": "service",
+      "statusLabel": "Ongoing practice",
+      "tagline": "A piece of software shaped specifically for one business.",
+      "description": "When a product in the catalogue doesn't quite fit, we take on bespoke engagements for Australian small business. Fixed-price per scope, local-first by default, written runbook on the way out.",
+      "button": { "href": "/contact", "label": "Talk about a project", "variant": "secondary" },
+      "meta": [
+        ["For",      "Small business where off-the-shelf part-solutions aren't enough"],
+        ["Shape",    "Scoping conversation → written design → fixed quote → build"],
+        ["Delivery", "Four to twelve weeks typical; longer builds release monthly"]
+      ]
+    }
+  ]
+}

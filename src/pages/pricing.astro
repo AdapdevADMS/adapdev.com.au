@@ -1,35 +1,83 @@
 ---
+/**
+ * /pricing (Adapdev primary site)
+ *
+ * We don't publish a one-page price list on the primary site: product
+ * pricing lives on each product's own site, and bespoke work is quoted
+ * per-engagement. This page explains that and sends people onwards.
+ * noindex'd so stale inbound links aren't ranked ahead of /adms/pricing.
+ */
 import Base from '../layouts/Base.astro';
-import Plans from '../components/sections/Plans.astro';
-import ComparePlans from '../components/sections/ComparePlans.astro';
-import Faq from '../components/sections/Faq.astro';
-import page from '../content/pages/pricing.json';
-const { meta, top, faq } = page;
+import Button from '../components/ui/Button.astro';
 ---
-<Base title={meta.title} description={meta.description} image={meta.image}>
-  <section class="pricing-top">
-    <div class="pricing-title">
-      <p class="t-eyebrow">{top.eyebrow}</p>
-      <h1 class="t-h1 balance">{top.title}</h1>
-      <p class="t-body-m balance pricing-description">{top.description}</p>
+<Base
+  title="Pricing — Adapdev"
+  description="Adapdev doesn't publish a one-page price list. Product pricing lives on each product's site; bespoke engagements are quoted per project."
+  noindex
+>
+  <section class="pricing-page">
+    <p class="t-eyebrow">Pricing</p>
+    <h1 class="t-h1 balance">Priced per product, or per engagement.</h1>
+    <p class="t-body-m balance lede">
+      We don't run a one-page price list for Adapdev the company. Each product has its own numbers on its own site, and bespoke work is quoted from a short written design, fixed-price per engagement.
+    </p>
+
+    <div class="pricing-paths">
+      <article class="path">
+        <h2 class="t-h4">ADMS</h2>
+        <p class="t-body-m">
+          Document management. One-off licence per installation across three tiers (sole trader, small business, small/medium law firm). SQLite or SQL Server; on-premises only.
+        </p>
+        <Button href="/adms/pricing">See ADMS pricing</Button>
+      </article>
+
+      <article class="path">
+        <h2 class="t-h4">Home Dialysis Tracker</h2>
+        <p class="t-body-m">
+          In development for 2027. Pricing will be published closer to the beta release. Register interest and we'll let you know when it's open.
+        </p>
+        <Button href="/contact?subject=HDT" variant="ghost">Register interest</Button>
+      </article>
+
+      <article class="path">
+        <h2 class="t-h4">Bespoke work</h2>
+        <p class="t-body-m">
+          Scoping conversation → written design → fixed quote. No per-hour meter, no per-seat multiplier. We quote the work, you decide whether to proceed.
+        </p>
+        <Button href="/contact" variant="ghost">Start a conversation</Button>
+      </article>
     </div>
   </section>
-  <section class="plans-section" id="plans">
-    <Plans />
-  </section>
-  <ComparePlans />
-  <Faq eyebrow={faq.eyebrow} title={faq.title} card={faq.card} items={faq.items} />
 </Base>
 
 <style>
-  .pricing-top, .plans-section { width: 100%; max-width: var(--canvas); margin: 0 auto; }
-  .pricing-top { padding: 100px 20px; }
-  .pricing-title { display: flex; flex-direction: column; gap: 24px; }
-  .pricing-title h1 { max-width: 800px; }
-  .pricing-description { max-width: 720px; }
-  .plans-section { padding: 0 20px 100px; }
+  .pricing-page {
+    width: 100%; max-width: var(--canvas); margin: 0 auto;
+    padding: 100px 20px;
+    display: flex; flex-direction: column; gap: 24px;
+  }
+  .pricing-page h1 { max-width: 800px; }
+  .lede { max-width: 720px; color: var(--grey); }
+  .pricing-paths {
+    display: grid; gap: 20px; margin-top: 24px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .path {
+    padding: 28px 24px;
+    background: var(--surface);
+    border: 1px solid var(--grey-20);
+    border-radius: 16px;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .path h2 { color: var(--white); }
+  .path p { color: var(--grey); margin: 0; }
+  .path :global(a) { margin-top: auto; align-self: flex-start; }
+
+  @media (max-width: 1199.98px) {
+    .pricing-paths { grid-template-columns: 1fr 1fr; }
+  }
   @media (max-width: 809.98px) {
-    .pricing-top { padding: 64px 20px; }
-    .plans-section { padding: 0 20px 64px; }
+    .pricing-page { padding: 64px 20px; }
+    .pricing-paths { grid-template-columns: 1fr; }
   }
 </style>

@@ -9,6 +9,9 @@ export default defineConfig({
   // Stylesheets inline so the first paint is not blocked by a separate request.
   build: { inlineStylesheets: 'always' },
   devToolbar: { enabled: false },
-  // Keep the copy's punctuation exactly as written.
-  markdown: { smartypants: false },
+  // Markdown processor defaults preserve the copy's punctuation
+  // exactly as written (no smart-quote / em-dash conversion). The
+  // previous `markdown.smartypants: false` was deprecated in Astro
+  // 5 and removed here; opt back in via remark-smartypants if ever
+  // needed.
 });
